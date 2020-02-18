@@ -131,6 +131,7 @@ font-family: 'Press Start 2P', cursive;
       margin: auto;
       text-align: center;
       font-family: arial;
+      float: left;
     }
     
   .container3
