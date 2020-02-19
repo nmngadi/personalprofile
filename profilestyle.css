@@ -5,12 +5,12 @@ body, html {
 
 }
 header{
-  height: 20%;
+  height: 50%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/programming-wallpaper-9.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/13992.jpg") ;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,8 +20,8 @@ header{
 }
 
 .hero-text {
-    background-color: white;
-    color: black;
+    background-color:white;
+    color:black;
     font-size: 20px; 
     font-weight: bold;
     margin: 0 auto;
@@ -52,6 +52,7 @@ img {
   padding: 5px;
   width: 150px;
   float: left;
+  border-radius: 50%;
 }
 .footer {
 
@@ -128,7 +129,7 @@ font-family: 'Press Start 2P', cursive;
     }
     .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      max-width: 500px;
+      max-width: 700px;
       margin: auto;
       text-align: center;
       font-family: arial;
@@ -149,7 +150,7 @@ font-family: 'Press Start 2P', cursive;
     .container3item{
       height: 50%;
       width: 50%;
-      
+      overflow: auto;
       background-color: lightgrey;
       border-width: 10px;
       margin: 5px;
@@ -190,6 +191,7 @@ font-family: 'Press Start 2P', cursive;
       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
       border-collapse: collapse;
       width: 80%;
+      overflow: auto;
     }
     
     #customers td, #customers th {
@@ -205,6 +207,6 @@ font-family: 'Press Start 2P', cursive;
       padding-top: 12px;
       padding-bottom: 12px;
       text-align: left;
-      background-color: #4CAF50;
+      background-color: #556F7A;
       color: white;
     }
